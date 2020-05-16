@@ -1,9 +1,11 @@
-/*The latest Express generator comes with a great practice that is worth to keep
-	- the API declaration is separated from the network related configuration (port, protocol, etc).
-	This allows testing the API in-process, without performing network calls,
-	with all the benefits that it brings to the table: fast testing execution and getting coverage metrics of the code.
-	It also allows deploying the same API under flexible and different network conditions.
-	Bonus: better separation of concerns and cleaner code*/
+/**
+ * The latest Express generator comes with a great practice that is worth to keep
+ * - the API declaration is separated from the network related configuration (port, protocol, etc).
+ * This allows testing the API in-process, without performing network calls,
+ * with all the benefits that it brings to the table: fast testing execution and getting coverage metrics of the code.
+ * It also allows deploying the same API under flexible and different network conditions.
+ * Bonus: better separation of concerns and cleaner code
+ * */
 
 import express, { Request, Response } from 'express'
 

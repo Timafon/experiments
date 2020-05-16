@@ -11,5 +11,6 @@ const listeningListener = () => {
 }
 
 // Create HTTP server.
-const server = http.createServer(app)
+const server = http
+	.createServer(app)
 	.listen(app.get('port'), listeningListener)
