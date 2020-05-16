@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start:dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "start:prod": "npm run build && node build/server/index.js"
   },
   "repository": "https://github.com/Timafon/experiments.git",
   "author": "timafon <zvyaginartems@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {
+    "@types/express": "^4.17.6",
     "@types/node": "^14.0.1",
+    "nodemon": "^2.0.4",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.1",
     "typescript": "^3.9.2"
   }
 }
