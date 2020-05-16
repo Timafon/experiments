@@ -1,0 +1,15 @@
+{
+  "name": "experiments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": "https://github.com/Timafon/experiments.git",
+  "author": "timafon <zvyaginartems@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "typescript": "^3.9.2"
+  }
+}
